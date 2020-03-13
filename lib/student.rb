@@ -6,8 +6,8 @@ def initialize
     @knowledge = [ ]
   end
   
-  def learn(str)
-    str.knowledge
+  def learn(knowledge)
+    @knowledge << knowledge
   end
   
   def knowledge
